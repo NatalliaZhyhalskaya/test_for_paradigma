@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салон красоты</title>
+    <link rel="shortcut icon" href="img/clock.png" type="image/png">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header_bg">
+        <div class="container">
+            <div class="navigation">
+                <div class="nav_logo">
+                    <img src="img/logo.png">
+                    <h3 class="logo_text">Студия депиляции и массажный кабинет в Бресте</h3>
+                </div>
+                <div class="nav_map">
+                    <img src="img/map.png">
+                    <div class="nav_map_text">
+                        <h4 class="map_title">Мы находимся в центре:</h4>
+                        <h5 class="map_subtitle">г. Брест, ул. Гоголя, д.65</h5>
+                        <a class="map_link">Смотреть на карте</a>
+                    </div>
+                    <div class="map_google">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.25709183136!2d12.395911497138592!3d41.91024148853027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2z0KDQuNC8LCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2sby!4v1573922337900!5m2!1sru!2sby" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="nav_contact">
+                    <div class="nav_contact_phone">
+                        <div class="nav_img_box nav_img_phone"></div>
+                        <div class="phone_box">
+                            <div class="phone_subtitle_wpar">
+                                <img src="img/green.png">
+                                <h5 class="phone_subtitle">Звоните, мы сейчас работаем</h5>
+                            </div>
+                            <h6 class="phone_title">+375 33 382 24 99</h6>
+                        </div>
+                    </div>
+                    <div class="nav_contact_schedule">
+                        <div class="nav_img_box nav_img_schedule"></div>
+                        
+                        <h6 class="schedule_title">Пн-Вс <span class="schedule_title_bold">9:00-21:00</span></h6>
+                    </div>
+                </div>
+                <div class="nav_btn" onclick="down_pop_ap_block()">
+                    <div class="nav_img_box nav_img_calendar"></div>
+                    <h5 class="nav_btn_text">Записаться онлайн</h5>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu_list">
+                    <li><a class="menu_link schedule_title_bold">Главная</a></li>
+                    <li><a class="menu_link">Шугаринг и депиляция воском</a></li>
+                    <li><a class="menu_link">Антицеллюлитный массаж</a></li>
+                    <li><a class="menu_link">Классический массаж</a></li>
+                    <li><a class="menu_link">Обучение</a></li>
+                    <li><a class="menu_link">Косметика для мастеров</a></li>
+                    <li><a class="menu_link">Статьи</a></li>
+                    <li><a class="menu_link">О студии</a></li>
+                    <li><a class="menu_link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="main_wrap ">
+                <div class="main">
+                    <div class="main_first"></div>
+                    <div class="main_second">
+                        <h1 class="main_title">Хотите избавиться от <span class="main_title schedule_title_bold">нежелательных волос </span> или нужен сеанс <span class="main_title schedule_title_bold">антицелюлитного массажа</span></h1>
+                        <div class="main_box">
+                            <div class="main_box_information">
+                                <ul class="main_list">
+                                    <li class="main_list_advantage">депиляция воском и Шугаринг; </li>
+                                    <li class="main_list_advantage">профессиональные сертифицированные мастера;</li>
+                                    <li class="main_list_advantage">работаем и с женщинами, и с мужчинами;</li>
+                                    <li class="main_list_advantage">результат уже после первой процедуры.</li>
+                                </ul>
+                                <div class="main_box_btn" onclick="down_pop_ap_block()">
+                                    <h4 class="main_btn_text">ПОЛУЧИТЬ КАРТУ КЛИЕНТА БЕСПЛАТНО</h4>
+                                    <img class="main_btn_img" src="img/leave.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mail_third">
+                        <img class="main_third_img" src="img/girl.png">
+                    </div>
+                    <div class="main_box_card">
+                        <img class="card_img" src="img/card_1.png">
+                        <div class="card_information_wrap">
+                            <div class="card_information_box">
+                                <img class="card_information animated  pulse infinite slow" src="img/information.png">
+                            <div class="information_hidden">
+                                <p class="information_hidden_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="main_wive">
+                    <img class="main_wive_img" src="img/wive_1.png">
+                </div>
+            </div>
+                </div>
+        <div class="pop_ap_block">
+            <div class="get_program_box">
+                <img class="get_program_img" src="img/form_flower.png">
+                <form class="get_program">
+                    <div class="form_close">
+                        <img src="img/form_close.png" onclick="down_pop_ap_block()" class="form_close_img">
+                    </div>
+                    <h5 class="get_program_title"><span class="schedule_title_bold font_size">Получите</span> программу обучения</h5>
+                    <h6 class="get_program_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </h6>
+                    <select class="form_options" name="select">
+                        <option class="form_option" selected value="s1">Повешение квалификации</option>
+                        <option class="form_option" value="s2">Классический массаж</option>
+                        <option class="form_option" value="s3">Удаление волос</option>
+                       </select>
+                       <input class="form_name" type="text" required name="form_name" placeholder="Ваше имя"/>
+                       <input class="form_phone" type="tel" required name="form_phone" placeholder="Ваш номер телефона"/>
+                       <div class="form_btn" onclick="schow_block()">
+                           <h5 class="form_btn_text">получить программу</h5>
+                           <img class="form_btn_img" src="img/form_flower_btn.png">
+                       </div>
+                </form>
+            </div>
+        </div>
+        <div class="pop_accept_block">
+            <div class="accept">
+                <div class="accept_close" onclick="close_block()">
+                    <img class="accept_close_img" src="img/form_close.png">
+                </div>
+                <img src="img/accept.png">
+                <h3 class="accept_title">Ваш заказ принят.</h3>
+                <h3 class="accept_subtitle">Ожидайте звонка</h3>
+            </div>
+        </div>
+    </header>
+    <script src="js/common.js"></script>
+</body>
+</html>
